@@ -1,18 +1,18 @@
 # E-Commerce-Project
-This project is a web-based e-commerce application. The needs and requirements of this website are explained. First, the database was created, and then this database 
-was included in the ADO.NET MVC project. Access to the database from within the project is done with the entity framework. In order to use this project on your own 
-computer, you need to make some changes. First, clone the project to your own computer. Then open the script file in an editor. Copy all the codes. Then open a 
-database management system (e.g. SQL Server). Create a new query. Paste the code you copied. At the top of the code you will see the file extensions shown in the 
-image below.
+This project is a web-based e-commerce application. The requirements for this website and the database to be used are explained below. First, the database was 
+created, and then this database was included in the ADO.NET MVC project. Access to the database from within the project is done with the entity framework. In order 
+to use this project on your own computer, you need to make some changes. First, clone the project to your own computer. Then open the script file in an editor. Copy 
+all the codes. Then open a database management system (e.g. SQL Server). Create a new query. Paste the code you copied. At the top of the code you will see the file 
+extensions shown in the image below.
 
 <img width="902" alt="dbms2" src="https://user-images.githubusercontent.com/129083272/229394270-5c2aa99b-950e-4183-b8f6-be3f88987727.png">
 
 The meaning of the codes here is the creation of Data.mdf and Data_log.ldf files that will be required for the database management system. You should edit the path 
 settings here according to your own computer. If there are databases you have created before in SQL Server, SQL Server has created files with ".mdf" and ".ldf" 
-extensions in those databases. I recommend that you discover where SQL Server creates these files and set a path accordingly. execute it. The database is now ready. 
-Open the project in Visual Studio.In the web config section, come to the section where the connection string tags are. Among these tags, there is a long add tag. 
-Replace the data source part in this add tag with the name of your own sql server and save it. When you open SQL Server, you will see the server name. You can copy it 
-from there. Your project is now ready to use.
+extensions in those databases. I recommend that you discover where SQL Server creates these files and set a path accordingly. Execute it. The database is now ready. 
+Open the project in Visual Studio.In the web config section, come to the section where the "connection string" tags are. Among these tags, there is a long "add" tag. 
+Replace the data source part in this "add" tag with the name of your own sql server and save it. When you open SQL Server, you will see the server name. You can copy 
+it from there. Your project is now ready to use.
 
 What kind of requirements did I create the database for?
 
