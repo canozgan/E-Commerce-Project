@@ -1,6 +1,6 @@
 # E-Commerce-Project
 This project is a web-based e-commerce application. The requirements for this website and the database to be used are explained below. First, the database was 
-created, and then this database was included in the ADO.NET MVC project. Access to the database from within the project is done with the entity framework. In order 
+created, and then this database was included in the ASP.NET MVC project. Access to the database from within the project is done with the entity framework. In order 
 to use this project on your own computer, you need to make some changes. First, clone the project to your own computer. Then open the script file in an editor. Copy 
 all the codes. Then open a database management system (e.g. SQL Server). Create a new query. Paste the code you copied. At the top of the code you will see the file 
 extensions shown in the image below.
